@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>Ternary Operator</h2>
+
+    <pre>
+        var age=29;
+        var str=(age<30)? "Adult": "Old";
+        {
+            console.log(str);  //Adult
+        }
+    </pre>
+
+    <h2>If/Else Operator</h2>
+
+    <pre>
+        var age=29;
+        if(age<15)
+        {
+            console.log("Young");
+        }
+        else if(age>15 && age<30)
+        {
+            console.log("Adult");
+        }                           //Adult
+    </pre>
+
+    <h2>Switch Case</h2>
+
+    <pre>
+        var day="monday";
+            switch(day){
+                case "monday": console.log("0");
+                break;
+                case "tuesday": console.log("1");
+                break;
+                case "wednesday": console.log("2");
+                break;
+                case "thursday": console.log("3");
+                break;
+                case "friday": console.log("4");
+                break;
+                case "saturday": console.log("5");
+                break;
+                case "sunday": console.log("6");
+                break;
+                default: console.log("not a valid day")
+            }  //0
+    </pre>
+
+    <h2>Hoisting</h2>
+
+    <p>
+        It is a mechanism where JS Engine moves all the variables and function declarations in the top of the scope
+        and also assign values them undefined to them just before execution.
+    </p>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
